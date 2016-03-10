@@ -1,0 +1,33 @@
+h1 {
+    background: black;
+    color: white;
+    text-align: center;
+    font: italic 80px cursive;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-align:
+}
+li > a {
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+  font-weight: 400;
+}
+ul > li {
+    float: left;
+    color: white;
+    margin: 0 10px;
+    left:10px;
+    top:20px;
+}
+
+#lista {
+      margin: auto;
+      border: 1px solid red;
+      padding:50px;
+      color:white;
+      background:black;
+    }
