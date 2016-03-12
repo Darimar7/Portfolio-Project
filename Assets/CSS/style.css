@@ -1,15 +1,24 @@
-header {
-  background-color: #f1634f;
-  padding: 67px 0;
+
+body {
+margin:0;
 }
-header > h1 {
-    background: red;
+h1 {
     color: black;
     text-align: center;
     font: italic 80px cursive;
     margin: 0 0 40px 0;
 }
-header > .nav > ul{
+
+nav {
+background-image: url("..\\Images\\El-Yunque-Vista-puerto-rico-331566_500_375.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+height:400px;
+<!--Tambien puedes usar padding y para la imagen nueva del yunque:
+background-size:100%; background-repeat: no-repeat; background-position: center center;-->
+}
+
+nav > ul{
   margin:0;
   padding:0;
   list-style: none;
@@ -17,7 +26,7 @@ header > .nav > ul{
 }
 li > a {
   text-decoration: none;
-  color:black;
+  color: white;
   font-size: 18px;
   font-weight: 400;
 }
@@ -26,6 +35,7 @@ ul > li {
     color: black;
     margin: 0 10px;
 }
+
 section > h3 {
   margin: 0 0 40px 0;
 }
