@@ -68,14 +68,21 @@ section {
 }
 
 #proyecto1 {
-float:left;
+ float: left;
 }
 #ciencias-marinas > div {
   display:inline-block;
-  width:50%
+  width:50%;
 }
+
 #ciencias-marinas > div > img {
-  width:30%;
+  width:34%;
+  display:block;
+  margin:0 auto;
+  height:19%
+}
+#proyecto3 {
+  float:left
 }
 #foto2 {
   display:inline;
@@ -83,17 +90,29 @@ float:left;
 }
 #foto2 > img {
   width: 21%;
+  display: block;
+  margin: 0 auto;
 }
 #ciencias-marinas {
   background-color:aliceblue;
   font-size: 17px;
   font-family: serif;
-  width:120%
+  width:100%
 }
 #ecology {
   background-color: white;
   font-size: 17px;
   font-family: serif;
+}
+#proyecto5 {
+  float:right;
+}
+#ecology > div {
+  width: 50%
+}
+#ecology > div > img{
+display:block;
+margin: 0 auto;
 }
 #coding {
   background-color: aquamarine;
