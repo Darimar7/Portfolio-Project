@@ -2,34 +2,57 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Darimar Davila's Profile</title>
-    <link rel="stylesheet" href="Assets\CSS\style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="assets\css\style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="assets\css\bootstrap.css">
+
   </head>
   <body>
-    <nav>
-      <h1> Darimar Dávila Ortiz</h1>
-        <ul>
-          <li><a href="index.html">Biography</a></li>
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-    </nav>
+    <header>
+      <nav>
+        <div class="container-fluid">
+          <div class="row">
+            <div class= "col-xs-6">
+              <h1> Darimar Dávila Ortiz</h1>
+            </div>
+            <div class= "col-xs-6">
+              <ul>
+                <li><a href="index.html">Biography</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
         <section id="about">
-       <h1>Biography</h1>
-          <div>
-            <img src="Assets\Images\biography.jpg" alt="Esta es una imagen de Darimar" width="400"/>
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h1>Biography</h1>
+              </div>
+            </div>
+            <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <img id="about-image" src="assets\images\biography.jpg" class="img-responsive" alt="Esta es una imagen de Darimar" width="400"/>
           </div>
-          <p>An outgoing proactive individual delighted by nature. Puertorriqueña interesada en la conservación y el estudio de ecosistemas marinos y terrestres.
-             Presidenta del Capítulo Estudiantil de la Sociedad Ambiente Marino (C.E.S.A.M.). Integrándose al mundo de la programación.
-             Sus metas son.  </p>
+          <p class="col-md-8 col-xs-12">An outgoing proactive individual delighted by nature. Puerto Rican woman interested in the cinservation and the study of marine and terrestrial ecosystems.
+             President of the Student Chapter of the Marine Society (C.E.S.A.M.). Currently, integrating to the community of Web Development.
+             Fluent in Spanish, English and Portuguese. Research Interests: Marine Ecology, Seafloor mapping, Coral Acidification, and Coral Rehabilitation. Remote Sensing and GIS applications in Ocean Sciences.
+             She loves: wine, fruits, hicking, ocean, rock climbing, afternoons, traveling, smiles, learn everything she can, books, cats, and good company.
+        </p>
+          </div>
+        </div>
         </section
     </main>
     <footer>
       <div id="footer">
-                  <p>darimar.davila@upr.edu | Tel: (939) 645-4478 | Calle Torrech B-5, Santa Juanita Bayamon, P.R. 00956 | </p>
-              </div>
+                  <p>darimar.davila@upr.edu | Tel: (939) 645-4478 |</p>
+      </div>
     </footer>
 
   </body>

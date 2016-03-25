@@ -2,8 +2,9 @@
 body {
 margin:0;
 }
-body > nav > h1 {
-  display: inline;
+header h1 {
+  display: inline-block;
+  padding: 5px 0;
 }
 
 h1 {
@@ -12,9 +13,11 @@ h1 {
     font:50px serif;
     margin: 20 0 20px 0;
 }
-
+.col-xs-6 {
+  width:50%
+}
 nav {
-background-image: url("..\\Images\\humpback-surfacing-d-millar-.jpg");
+background-image: url("..\\images\\humpback-surfacing-d-millar-.jpg");
 background-size:cover;
 background-repeat:no-repeat;
 height:400px;
@@ -22,12 +25,12 @@ height:400px;
 background-size:100%; background-repeat: no-repeat; background-position: center center;-->
 }
 
-nav > ul{
-  padding:0;
+nav ul{
+  padding:35px 0;
   list-style: none;
   text-align:right;
-  display:inline;
-  margin-left: 712px;
+  display: block;
+  width: 100%;
 }
 li > a {
   text-decoration: none;
@@ -35,58 +38,50 @@ li > a {
   font-size: 18px;
   font-weight: 400;
 }
-nav > ul > li {
+nav ul > li {
     display:inline;
     color: black;
     margin: 0 10px;
 }
-
+#about div > p {
+  text-align: center;
+}
+#about div > h1 {
+  margin-left: 403px;
+}
+#ciencias-marinas div > h2 {
+  text-align:center;
+  margin-left: 468px;
+}
+.img-responsive {
+  width: 100% \9;
+}
 
 section > h3 {
   margin: 0 0 40px 0;
 }
 section {
-  padding: 60px 80px;
+  padding: 60px 0px;
 }
 
-#about > p{
-  width: 60%;
-  float: right;
-  text-align: center;
 }
-#about > h1 {
+#about div col-xs-12 > h1 {
   margin-left: 564px;
 }
-#about > div {
-  display: inline-block;
-  width: 40%;
-}
 
-#about > div > img {
+#about-image {
   width: 93%;
   margin-left: 17px;
 }
 
-#proyecto1 {
- float: left;
-}
-#ciencias-marinas > div {
-  display:inline-block;
+#ciencias-marinas  div > img {
   width:50%;
-}
-
-#ciencias-marinas > div > img {
-  width:34%;
   display:block;
   margin:0 auto;
-  height:19%
 }
-#proyecto3 {
-  float:left
-}
+
 #foto2 {
-  display:inline;
-  width:50%;
+  padding-top: 50px;
 }
 #foto2 > img {
   width: 21%;
@@ -104,20 +99,21 @@ section {
   font-size: 17px;
   font-family: serif;
 }
-#proyecto5 {
-  float:right;
+#ecology div > h2 {
+  margin-left: 824px;
 }
-#ecology > div {
-  width: 50%
-}
-#ecology > div > img{
+#ecology  div > img{
 display:block;
 margin: 0 auto;
+width:70%;
 }
 #coding {
   background-color: aquamarine;
   font-size: 17px;
   font-family: serif;
+}
+#proyecto6 {
+  text-align: initial;
 }
 div.img {
     margin: 5px;

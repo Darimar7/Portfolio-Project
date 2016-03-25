@@ -2,40 +2,61 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Darimar Davila's Profile</title>
-    <link rel="stylesheet" href="Assets\CSS\style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="assets\css\style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="assets\css\bootstrap.css">
+
   </head>
   <body>
-    <nav>
-        <h1> Darimar Dávila Ortiz</h1>
-        <ul>
-          <li><a href="index.html">Biography</a></li>
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-    </nav>
+    <header>
+      <nav>
+        <div class="container-fluid">
+          <div class="row">
+            <div class= "col-xs-6">
+              <h1> Darimar Dávila Ortiz</h1>
+            </div>
+            <div class= "col-xs-6">
+              <ul>
+                <li><a href="index.html">Biography</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
   <main>
-  <h1>Experience</h1>
-  <div id="ciencias-marinas">
-    <h2>Marine Ecology Experience</h2>
-    <div>
-        <img src="Assets\Images\trampas de sedimento.jpg">
-    </div>
-    <div id="proyecto1">
-          <h3>Determine the connectivity of coastal ecosystems, by assessing the impact of sedimentation on the near-shore coral reef ecosystem
-            of Culebra Island – Abimarie Otaño’s research, Laboratory of Tropical Ecology, Dr. Elvira Cuevas, University of Puerto Rico, Rio Piedras campus.
-            Center for Applied Tropical Ecology and Conservation (CATEC) – Research Assistant</h3>
-            <ul>
-              <li>Skills Gained: Scientific Diving experience. Stability while diving in order to work underwater and gather data.</li>
-              <li>Topics Learned: Contribution of the Staghorn Coral to the reef growth and fishery habitat. Growth rate of the Staghorn Coral.
-                 The impact of sediment run-off and deposition on coral reefs.</li>
-              <li>Tasks Performed: Maintenance of growing units of the Staghorn Coral (<em>Acropora cervicornis</em>). Gathered data, monitored the coral
-                reef benthic community using photo-transect. Change of sediments traps. Laboratory procedure for analyzing sediment samples using scales and sieves.</li>
-            </ul>
+  <section id="ciencias-marinas">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2><u>Marine Ecology Experience<u></h2>
+        </div>
       </div>
-    <div id="proyecto2">
-            <h3>Student Chapter of the Marine Society (CESAM) <a href="https://www.cesampr.com"> CESAM</a></h3>
+      <div class="row">
+        <div class="col-xs-4">
+          <img src="assets\images\trampas de sedimento.jpg" class="img-circle">
+        </div>
+          <div id="proyecto1" class="col-xs-8">
+                <h3>Determine the connectivity of coastal ecosystems, by assessing the impact of sedimentation on the near-shore coral reef ecosystem
+                  of Culebra Island – Abimarie Otaño’s research, Laboratory of Tropical Ecology, Dr. Elvira Cuevas, University of Puerto Rico, Rio Piedras campus.
+                  Center for Applied Tropical Ecology and Conservation (CATEC) – Research Assistant</h3>
+                  <ul>
+                    <li>Skills Gained: Scientific Diving experience. Stability while diving in order to work underwater and gather data.</li>
+                    <li>Topics Learned: Contribution of the Staghorn Coral to the reef growth and fishery habitat. Growth rate of the Staghorn Coral.
+                       The impact of sediment run-off and deposition on coral reefs.</li>
+                    <li>Tasks Performed: Maintenance of growing units of the Staghorn Coral (<em>Acropora cervicornis</em>). Gathered data, monitored the coral
+                      reef benthic community using photo-transect. Change of sediments traps. Laboratory procedure for analyzing sediment samples using scales and sieves.</li>
+                  </ul>
+            </div>
+          </div>
+
+          <div class="row">
+          <div id="proyecto2" class="col-xs-6">
+            <h3>Student Chapter of the Marine Society <a href="https://www.cesampr.com"> (CESAM) </a></h3>
                 <ul>
                   <li>Skills Gained: Leadership, Organization, and Creativity.</li>
                   <li>Topics Learned: Effects of anthropogenic activities on marine turtles such as
@@ -53,61 +74,86 @@
                     </ul>
                   </li>
                 </ul>
-    </div>
-    <div id="foto2">
-      <img src="Assets\Images\tortugas.jpg">
-    </div>
-    <div id="proyecto3">
+            </div>
+        <div id="foto2" class="col-xs-6">
+          <img src="assets\images\cesam.jpg" class="img-circle">
+        </div>
+      </div>
+        <div class="row">
+          <div id="foto3" class="col-xs-4">
+            <img src="assets\images\tortugas.jpg" class="img-circle">
+          </div>
+          <div id="proyecto3" class="col-xs-8">
             <h3>Marine Turtle Volunteer Program ATMAR /Centro Educativo Amigos de las Tortugas Marinas (ATMAR), Maunabo, Puerto Rico.</h3>
                 <ul>
                   <li>Skills Gained: Identifying turtle footprints on the beach and which species they belong, identifying nests.</li>
                   <li>Topics Learned: Classification of turtle eggs.</li>
                   <li>Tasks Performed: Open nests, count and classify eggs. Mark turtle nests on the beach. Measure turtles while nesting. </li>
                 </ul>
-      </div>
-      <div id="proyecto4">
-            <h3>Coral Reef Rehabilitation, Culebra Island, Puerto Rico. Sociedad Ambiente Marino <a href="http://sampr.org/es/">Sociedad Ambiente Marino</a></h3>
+          </div>
+        </div>
+    <div class="row">
+      <div id="proyecto4" class="col-xs-6">
+            <h3>Coral Reef Rehabilitation, Culebra Island, Puerto Rico. <a href="http://sampr.org/es/">Sociedad Ambiente Marino</a></h3>
                 <ul>
                   <li>Skills Gained: Scientific Diving Experience.</li>
                   <li>Topics Learned: Coral species, rehabilitation techniques, and conservation of marine ecosystems.</li>
                   <li>Tasks Performed: Maintaining Coral Farming Units.</li>
                 </ul>
       </div>
-</div>
-<div id="ecology">
-    <h2>Tropical Forest Ecology Experience</h2>
-    <div id= foto3>
-      <img src="Assets\Images\10603612_10204778358443440_2893133175700005516_n.jpg">
-    </div>
-      <div id="proyecto5">
-          <h3>Program for Belize Archaeological/ Ecological Project, Belize, Central America. In collaboration with the Natural Resources Career Tracks
-            program and Dr. Nick Brokaw – Research Assistant</h3>
-            <ul>
-              <li>Skills Gained: Adaptation, flexibility, field work.</li>
-              <li>Topics Learned: Mayan culture, and archeological structures. Studied the biodiversity in the research area.
-                How to properly excavate a site and how to identify ceramics. Understanding how the biodiversity is important for archaeological analysis.
-                How to live for a month in an odd, foreign but beautiful place with strange conditions.</li>
-              <li>Tasks Performed: Assisted in the professor’s research project about the
-                  vegetation in the Río Bravo conservation and management area. Identified plant species and collected data (DBH of trees in different transects within the forest, labeled trees).
-                  Excavated, identified and analyzed ceramics and lithic.</li>
-
-            </ul>
+      <div id="foto4" class="col-xs-4">
+        <img src="assets\images\fincas.jpg" class="img-circle">
       </div>
+    </div>
+</section>
+<section id="ecology">
+  <div class="row">
+    <div class= "col-xs-12">
+      <h2><u>Tropical Forest Ecology Experience<u></h2>
+    </div>
   </div>
-<div id="coding">
-    <h2>Web Development Experience</h2>
-      <div id="proyecto6">
+  <div class="row">
+    <div id="foto5" class= "col-xs-4">
+      <img src="Assets\Images\10603612_10204778358443440_2893133175700005516_n.jpg" class="img-circle">
+    </div>
+    <div id="proyecto5" class="col-xs-8">
+        <h3>Program for Belize Archaeological/ Ecological Project, Belize, Central America. In collaboration with the Natural Resources Career Tracks
+          program and Dr. Nick Brokaw – Research Assistant</h3>
+          <ul>
+            <li>Skills Gained: Adaptation, flexibility, field work.</li>
+            <li>Topics Learned: Mayan culture, and archeological structures. Studied the biodiversity in the research area.
+              How to properly excavate a site and how to identify ceramics. Understanding how the biodiversity is important for archaeological analysis.
+              How to live for a month in an odd, foreign but beautiful place with strange conditions.</li>
+            <li>Tasks Performed: Assisted in the professor’s research project about the
+                vegetation in the Río Bravo conservation and management area. Identified plant species and collected data (DBH of trees in different transects within the forest, labeled trees).
+                Excavated, identified and analyzed ceramics and lithic.</li>
+          </ul>
+    </div>
+  </div>
+</section>
+<section id="coding">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2><u>Web Development Experience<u></h2>
+    </div>
+  </div>
+  <div class="row">
+      <div id="proyecto6" class="col-xs-6">
         <h3>Codetrotters Academy</h3>
         <p><strong>Introduction to Web Development:</strong> This is an entry-level course designed for people who want to build beautiful,
           interactive websites. Using HTML, CSS, and jQuery, I am learning to build, style, and animate web pages,
           as well as learn to make them mobile responsive. </p>
       </div>
-</div>
-  </main>
+  </div>
+</section>
+</main>
+ <div class="row">
   <footer>
-    <div id="footer">
-                <p>darimar.davila@upr.edu | Tel: (939) 645-4478 | Calle Torrech B-5, Santa Juanita Bayamon, P.R. 00956 | </p>
-            </div>
+    <div id="footer" class="col-xs-12">
+                <p>darimar.davila@upr.edu | Tel: (939) 645-4478 |</p>
+    </div>
   </footer>
+</div>
+</div>
   </body>
 </html>
